@@ -1,3 +1,4 @@
+#!/usr/bin/env node  --watch --no-warnings
 const http = require('http');
 const path = require('path');
 const fs = require('fs');
@@ -19,14 +20,16 @@ const server = http.createServer((req, res) => {
 
   // not optimal method to serve a page
   let filePath;
-  // a route to the root path
-  if (req.url === '/' || req.url === 'index.html') {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    filePath = path.join(__dirname, 'views', 'index.html');
-    fs.readFile(filePath, 'utf8', (err, data) => {
-      res.end(data);
-    });
+  //using a switch statement to serve a route
+  switch (req.url) {
+    case '/':
+      res.statusCode = 200;
+      res.setHeader('Content-Type', 'text/html');
+      filePath = path.join(__dirname, 'views', 'index.html');
+      fs.readFile(filePath, 'utf8', (err, data) => {
+        res.end(data);
+      });
+      break;
   }
 });
 

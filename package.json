@@ -2,6 +2,9 @@
   "name": "dave-gray-nodejs-tutorial",
   "private": true,
   "version": "0.0.0",
+  "bin": {
+    "dgnjs": "./tutorial-5/server.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
