@@ -1,0 +1,2 @@
+[2023-03-18 Sat 16:05]		d5b949f9-d959-4d99-9ba0-930b81848b4b	Log event emitted!
+[2023-03-18 Sat 16:05]		d01f7db9-fe91-4f66-ba40-7451470c7d2d	Log event emitted!

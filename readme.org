@@ -1,0 +1,3 @@
+* Readme 
+** Questions
+- [ ] Has ~fsPromise~ been replaced with ~readFileAsync~?

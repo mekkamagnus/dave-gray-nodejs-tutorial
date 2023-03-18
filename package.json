@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
   }
 }
