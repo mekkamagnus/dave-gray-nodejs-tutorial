@@ -20,7 +20,9 @@ const server = http.createServer((req, res) => {
 
   // not optimal method to serve a page
   let filePath;
-  //using a switch statement to serve a route
+  // using a switch statement to serve a route
+  // it would be very big and you'd have to think of every file
+  // not dynamic
   switch (req.url) {
     case '/':
       res.statusCode = 200;
