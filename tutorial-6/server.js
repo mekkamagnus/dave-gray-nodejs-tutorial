@@ -5,6 +5,16 @@ const path = require('path');
 // Define a port
 const PORT = process.env.PORT || 3500;
 
+// MIDDLEWARE
+// middleware: built-in
+app.use(express.urlencoded({ extended: false }));
+
+// middleware: built-in - json handler
+app.use(express.json());
+
+// middleware: built-in - serve static files
+app.use(express.static(path.join(__dirname, '/public')));
+
 app.get('^/$|/index(.html)?', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
