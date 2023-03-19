@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.4.1",
   "bin": {
-    "dgnjs": "./tutorial-6/server.js"
+    "dgnjs": "./tutorial-7/server.js"
   },
   "scripts": {
     "dev": "vite",

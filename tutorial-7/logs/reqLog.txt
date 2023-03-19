@@ -1,0 +1,7 @@
+[2023-03-19 Sun 01:45]		d12b9946-9e31-4a0d-93e8-091b6a0958fa	/new-pagsdfs	GET
+[2023-03-19 Sun 01:45]		26d4a536-d911-4d00-a63d-16099def951b	/css/style.css	GET
+[2023-03-19 Sun 01:45]		162ba969-07ed-4dc6-94f4-fce32297337e	/	GET
+[2023-03-19 Sun 01:45]		b3d4b22c-5af6-4318-a2f8-f36489616f37	/css/style.css	GET
+[2023-03-19 Sun 01:46]		12179203-c672-478f-86fe-edabe904b55e	/	GET
+[2023-03-19 Sun 01:48]		f692d0e7-7311-4d72-a907-98b835b122d2	/	GET
+[2023-03-19 Sun 01:48]		9a95f9a8-4edb-4a68-af54-36e20a0802b5	/css/style.css	GET
