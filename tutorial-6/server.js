@@ -5,7 +5,7 @@ const path = require('path');
 // Define a port
 const PORT = process.env.PORT || 3500;
 
-app.get('^/|/index.html', (req, res) => {
+app.get('^/|/index(.html)?', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
