@@ -1,4 +1,5 @@
 #!/usr/bin/env node  --watch --no-warnings
+const pjson = require('../package.json');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -27,6 +28,8 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 // routes
 app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
 app.use('/employees', require('./routes/api/employees'));
 
 // 404 catchall
@@ -45,5 +48,7 @@ app.use(errorHandler);
 
 // Listen for request
 app.listen(PORT, () =>
-  console.log(`Express server running on port ${PORT}...`),
+  console.log(
+    `Express server running on port ${PORT} (ver.${pjson.version})...`,
+  ),
 );
