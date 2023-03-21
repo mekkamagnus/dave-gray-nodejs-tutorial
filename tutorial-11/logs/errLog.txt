@@ -1,0 +1,7 @@
+[2023-03-19 Sun 01:46]		38cb76ae-6a55-4115-ae95-59d10be49c0e	TypeError: fsPromises.readFil is not a function
+[2023-03-20 Mon 17:35]		8869c773-3c8d-4384-98f9-5f694dd02ec5	Error: Not allowed by CORS
+[2023-03-20 Mon 17:53]		9a5423a0-9ec7-4ece-9378-2aaa046fab17	SyntaxError: Unexpected token s in JSON at position 0
+[2023-03-20 Mon 19:03]		53abf6b8-1ccf-47b7-afe9-656aa682cbbe	TypeError: req.json is not a function
+[2023-03-20 Mon 19:09]		af6b0dee-e579-4d93-a4a5-7063a5e4022e	TypeError: req.json is not a function
+[2023-03-20 Mon 19:09]		36974976-cd3d-4974-85ee-b48258c4c1dd	TypeError: req.json is not a function
+[2023-03-20 Mon 20:03]		03ec58cd-d8fa-4ba7-affa-5dcf90a8745e	TypeError: Cannot read properties of undefined (reading '1')
